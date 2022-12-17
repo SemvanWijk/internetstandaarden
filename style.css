@@ -36,7 +36,9 @@ ul a:hover {
   background-color: #9F6B08;
 }
 
-p, h1, h2{
+p,
+h1,
+h2 {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
@@ -61,7 +63,7 @@ h2 {
 
 main {
   margin-top: 1%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bass.jpeg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bass.jpeg");
   height: 100%;
   margin-top: 2.8125em;
   z-index: -1;
@@ -74,7 +76,7 @@ img {
   border-color: #f9ce5c;
 }
 
-.right{
+.right {
   float: right;
   margin-right: 15%;
 }
@@ -89,7 +91,6 @@ img {
   background-color: black;
   text-align: center;
   font-size: 1.2em;
-
   left: 0;
   bottom: 0;
   width: 100%;
