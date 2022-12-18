@@ -1,3 +1,19 @@
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  p,
+  h1,
+  h2 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    padding: 0.2em;
+  }
+}
+
 body {
   background-color: black;
   padding: 0;
@@ -22,7 +38,7 @@ ul a {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 1.0625em 1.3125em;
+  padding: 1.1em 1.3em;
   text-decoration: none;
   font-size: 1.25em;
 }
@@ -43,36 +59,33 @@ h2 {
   margin-left: 25%;
   margin-right: 25%;
   color: white;
+  padding: 0.625em;
 }
 
 p {
-  padding: 0.625em;
   font-size: 1em;
 }
 
 h1 {
-  padding: 0.625em;
   font-size: 2.5em;
   margin-top: 5em;
 }
 
 h2 {
-  padding: 0.625em;
-  font-size: 1.875em;
+  font-size: 2em;
 }
 
 main {
-  margin-top: 1%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bass.jpeg");
   height: 100%;
-  margin-top: 2.8125em;
-  z-index: -1;
+  margin-top: 2.8em;
+  overflow-y: scroll;
 }
 
 img {
-  width: 7.8125em;
+  width: 7.8em;
   height: auto;
-  border: solid 0.1875em;
+  border: solid 0.2em;
   border-color: #f9ce5c;
 }
 
