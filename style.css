@@ -1,3 +1,8 @@
+/*Link naar Github server: https://github.com/SemvanWijk/internetstandaarden */
+
+
+
+
 @media (max-width: 600px) {
   img {
     display: none;
@@ -76,6 +81,7 @@ h2 {
 }
 
 main {
+  /* grijze kleur op de background image komt van https://www.w3schools.com/howto/howto_css_hero_image.asp */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bass.jpeg");
   height: 100%;
   margin-top: 2.8em;
@@ -98,7 +104,7 @@ img {
   float: left;
   margin-left: 15%;
 }
-
+/* footer komt van https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
 .footer {
   color: white;
   background-color: black;
